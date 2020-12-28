@@ -38,7 +38,6 @@ public class Main {
             job.setOutputKeyClass(Text.class);
             job.setOutputValueClass(DoubleWritable.class);
         }
-        ouvre teams
         else {
             job.setMapperClass(MapperSales.class);
             job.setReducerClass(ReducerOnlineOffline.class);
